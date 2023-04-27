@@ -3,6 +3,7 @@
 
 
 
+<img width="500" alt="ls_white" src="https://user-images.githubusercontent.com/63843304/234881278-c37bbc4b-ceb0-442f-8087-2a9d07661bd0.png">
 
 Lightstreamer test script for creating clients to be connected on the LS Server
 
