@@ -1,5 +1,5 @@
 
- # Lighstreamer Test Script
+ # Lightstreamer Test Script
 
 
 
