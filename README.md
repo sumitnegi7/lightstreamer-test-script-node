@@ -18,8 +18,7 @@ Then to run this repository follow the below steps:
 
 ```npm run test```
 
-The test script for this project which will basically be a node ls client is here:
-https://github.com/sumitnegi7/lightstreamer-test-script-node
+
 
 
 
