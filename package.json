@@ -1,0 +1,33 @@
+{
+  "name": "iqo-test-script",
+  "version": "0.0.1",
+  "description": "Load Test Script for IQO Lightstreamer events",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/app.js",
+    "non-app": "node src/nonapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/nativebyte/digitok/IQO-Sony-Digitok/test-scripts-js.git"
+  },
+  "keywords": [
+    "IQO",
+    "loadtest"
+  ],
+  "author": "Sumit Negi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nativebyte/digitok/IQO-Sony-Digitok/test-scripts-js/issues"
+  },
+  "homepage": "https://gitlab.com/nativebyte/digitok/IQO-Sony-Digitok/test-scripts-js#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.201.0",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "lightstreamer-client-node": "^8.0.5"
+  
+  }
+}
