@@ -250,21 +250,6 @@ const forceCleanUpServer = (eventType) => {
       console.error("Error in Disconnecting", error);
     }
   });
-  const apiURL = process.env.API;
-  axios
-    .post(
-      `http://localhost:8000/api/v1/test/offset`,
-      {},
-      {
-        headers: {
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ODkwNDI1LCJuYW1lIjoiTW9oaXQiLCJ1c2VybmFtZSI6InNkc2QiLCJlbWFpbCI6Im1vaGl0Zzk2QHlhaG9vLmNvbSIsImF2YXRhciI6Imh0dHBzOi8vZm9vYnVja2V0bGFtYmRhbmV3LnMzLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tL1Byb2ZpbGVQaWMtRGVmYXVsdC5wbmciLCJwaG9uZSI6Ijg3OTYyMDA4MDkiLCJzY2hvb2xfaWQiOiIiLCJ6b25lIjoiTXVtYmFpIiwiaWF0IjoxNjYwMjAxNjA4LCJleHAiOjQyNTIyMDE2MDh9.rXZ57biz8bIjPzLAKZDx9AmslNeHGHGPRC3ReO8Pavo`,
-        },
-      }
-    )
-    .then()
-    .catch((e) => {
-      console.log("Error in cleanup");
-    });
   process.exit(eventType);
 };
 
